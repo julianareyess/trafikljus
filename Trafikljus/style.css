@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ccc;
+}
+
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+  border: 5px solid white; /* Vit ram runt varje ljus */
+  position: relative;
+}
+
+.red {
+  background-color: #8b0000;
+}
+
+.yellow {
+  background-color: #daa520;
+}
+
+.green {
+  background-color: #006400;
+}
+
+.inner-light {
+  position: absolute;
+}
+
+.red-light-top {
+  background-color: #ff6347;
+  width: 100%;
+  height: 50%;
+  top: 0;
+}
+
+.red-light-bottom {
+  background-color: #e57373;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+}
+
+.yellow-light-top {
+  background-color: #ffff00;
+  width: 100%;
+  height: 50%;
+  top: 0;
+}
+
+.yellow-light-bottom {
+  background-color: #fffacd;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+}
+
+.green-light-top {
+  background-color: #32cd32;
+  width: 100%;
+  height: 50%;
+  top: 0;
+}
+
+.green-light-bottom {
+  background-color: #98fb98;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+}
