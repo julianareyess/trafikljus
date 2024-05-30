@@ -1,0 +1,58 @@
+
+body {
+    height: 100vh;
+    margin:0px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redlight{
+background-color: red;
+width: 100px;
+height: 100px;
+margin: 10px;
+border: 10px solid darkred;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+
+}
+.redflash{
+    width: 100%;
+    height: 50%;
+    background-color: #f3a0ad;
+    
+}
+.yellowlight {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    border: 10px solid #d7a117
+    
+}
+.yellowflash {
+width: 50%;
+height: 50%;
+background-color: #f9f196;
+}
+.greenlight {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    border: 10px solid darkgreen
+}
+.greenflash{
+    width:50%;
+    height: 50%;
+    background-color: lightgreen;
+}
